@@ -30,7 +30,8 @@ twitter_username: corinthoneto
 github_username:  corinthoneto
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: rundocs/jekyll-rtd-theme
 plugins:
   - jekyll-feed
 

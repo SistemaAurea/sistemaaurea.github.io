@@ -111,8 +111,8 @@
                     <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
                         <ul class="nav">
                             <li><a href="#line1">Configurando no Moodle®</a></li>
-                            <li><a href="#line2">How to Install WordPress</a></li>
-                            <li><a href="#line3">How to Install Theme</a></li>
+                            <li><a href="#line2">Configurando no Canvas LMS®</a></li>
+                            <!-- <li><a href="#line3">How to Install Theme</a></li>
                             <li><a href="#line4">Necessary Plugins</a></li>
                             <li><a href="#line5">Creating Blog Pages</a></li>
                             <li><a href="#line6">Revolution Slider</a></li>
@@ -130,7 +130,7 @@
                             <li><a href="#line8">Support Desk</a></li>
                             <li><a href="#line9">Files & Sources</a></li>
                             <li><a href="#line10">Version History (Changelog)</a></li>
-                            <li><a href="#line11">Copyright and license</a></li>
+                            <li><a href="#line11">Copyright and license</a></li> -->
                         </ul>
                     </nav >
                 </div>
@@ -202,10 +202,51 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                                <p>Siga estes passos para configurar a Áurea como LTI® 1.3 provider</p>
 
-                                <h4>Bootstrap Grid System</h4>
+                                <h4>Entre no Moodle como um usuário admin (com privilégios para configurar)</h4>
 
+                                <!-- <img src="images/upload/moodle-login.png" /> -->
+                                <a href="images/upload/moodle-login.png" data-rel="prettyPhoto"><img src="images/upload/moodle-login.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
+                                <h4>Acesse o menu (1) Site Administration (Administração do site), (2) depois a aba "Plugins" e por fim (3) a opção External Tools -> Manage tools.</h4>
+                                <a href="images/upload/moodle-menu-admin.png" data-rel="prettyPhoto"><img src="images/upload/moodle-menu-admin.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
+                                <h4>Na tela "Manage Tools" clique no link "configure a tool manually" (configuração manual)</h4>
+                                <a href="images/upload/moodle-manual-config.png" data-rel="prettyPhoto"><img src="images/upload/moodle-manual-config.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
+                                <h4>Na tela "External tool configuration" siga os passos abaixo:</h4>
+                                <h4>Preencha todos os campos marcados na imagem com os dados que aparecem na imagem:</h4>
+                                <a href="images/upload/moodle-config-1.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-1.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+<br />
+                                <div class="intro2 clearfix">
+                                    <p><i class="fa fa-exclamation-triangle"></i> Atenção! no campo "Custom parameters" você deverá informar o valor da LMS_KEY explicada na seção "Pré-requisitos" 
+                                        desta documentação. Você precisa informar a LMS_KEY no formato: lms_key=[SUA_PROPRIA_CHAVE].
+                                    </p>
+                                </div>
+
+                                <br />
+
+                                <h4>Continue preenchendo os próximos campos com os dados que aparecem nas imagens:</h4>
+                                <a href="images/upload/moodle-config-2.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-2.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                                <a href="images/upload/moodle-config-3.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-3.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                                <a href="images/upload/moodle-config-4.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-4.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                                <h4>Os outros campos e/ou opções, além dos descritos aqui, não precisam ser alterados</h4>
+                                <h4>Clique na opção "Save" (Salvar) e você será redirecionado para a tela abaixo, indicando que você possui a nossa ferramenta externa cadastrada no Moodle. Mas alguns passos ainda precisam ser feitos.</h4>
+                                <a href="images/upload/moodle-config-5.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-5.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                                <h4>Clique no ícone de menu que se parece com várias linhas (conforme a imagem abaixo)</h4>
+                                <a href="images/upload/moodle-config-6.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-6.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                                <h4>Você verá um painel (popup) com algumas informações sobre a ferramenta. Uma dessas informações é o "Client ID", você precisa copiar este código (conforme mostra a imagem abaixo) e mandar para 
+                                    a nossa equipe. Apenas quando este código for informado para a equipe de suporte da <b>Áurea</b>, é que você estará habilitado a usar a ferramenta como LTI.
+                                </h4>
+                                <a href="images/upload/moodle-config-7.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-7.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
+                                <div class="intro2 clearfix">
+                                    <p><i class="fa fa-success"></i><b>Parabéns!</b> Você concluiu a configuração da Áurea como ferramenta LTI® do seu portal LMS Moodle®!!</p>
+                                </div>
+
+
+<!-- 
                                 <pre class="brush: html; highlight: [2,4]">
                             <div class="container">
                                 <div class="row">
@@ -246,7 +287,7 @@
                                     </div>
                                 </div>
                             </div>
-                         </pre>
+                         </pre> -->
                             </div>
                             <!-- end col -->
                         </div>
@@ -259,20 +300,19 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to Install WordPress <hr></h2>
+                                <h2 class="dark-text">Configurando no Canvas LMS® <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
                         <!-- end row -->
 
                         <div class="intro2 clearfix">
-                            <p><i class="fa fa-wordpress"></i> Lorem the It is a long established fact that a reader will be distracted..
-                                <br> Please read more about WordPress here. <a href="#">WordPress Installation via FTP.</a> </p>
+                            <p><i class="fa fa-success"></i> Siga os passos abaixo para configurar a <b>Áurea</b> como uma LTI® 1.3 provider dentro de seu Canvas® LMS.</p>
                         </div>
 
                         <hr>
 
-                        <h4>Upload via WordPress Admin</h4>
+                        <!-- <h4>Upload via WordPress Admin</h4>
 
                         <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
 
@@ -285,20 +325,20 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> -->
 
                     </section>
                     <!-- end section -->
 
-                    <section id="line3" class="section">
+                    <!-- <section id="line3" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">How to Install Theme <hr></h2>
                             </div>
-                            <!-- end col -->
+                            
                         </div>
-                        <!-- end row -->
+                       
 
                         <h4>Upload via WordPress Admin</h4>
 
@@ -329,18 +369,18 @@
                             </div>
                         </div>
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
-                    <section id="line4" class="section">
+                    <!-- <section id="line4" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Necessary Plugins <hr></h2>
                             </div>
-                            <!-- end col -->
+                           
                         </div>
-                        <!-- end row -->
+                       
 
                         <div class="row">
                             <div class="col-md-4">
@@ -348,21 +388,21 @@
                                 <h4>Plugin name #1</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                             </div>
-                            <!-- end col -->
+                          
 
                             <div class="col-md-4">
                                 <img src="images/upload/plugin2.png" alt="" class="img-responsive img-thumbnail">
                                 <h4>Plugin name #2</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                             </div>
-                            <!-- end col -->
+                           
 
                             <div class="col-md-4">
                                 <img src="images/upload/plugin3.png" alt="" class="img-responsive img-thumbnail">
                                 <h4>Plugin name #3</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                             </div>
-                            <!-- end col -->
+                           
 
                             <div class="col-md-12">
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
@@ -372,20 +412,20 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- end row -->
+                      
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
-                    <section id="line5" class="section">
+                    <!-- <section id="line5" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Creating Blog Pages <hr></h2>
                             </div>
-                            <!-- end col -->
+                         
                         </div>
-                        <!-- end row -->
+                        
 
                         <div class="row">
 
@@ -394,7 +434,7 @@
                             </div>
 
                             <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
+                                <a href="images/upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
                                 <h4 id="line5_1">WordPress Blog Page -</h4>
                                 <ul>
                                     <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
@@ -402,7 +442,7 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                            <!-- end col -->
+                          
 
                             <div class="col-md-4">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
@@ -414,7 +454,7 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                            <!-- end col -->
+                         
 
                             <div class="col-md-4">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
@@ -426,23 +466,23 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                            <!-- end col -->
+                          
 
                         </div>
-                        <!-- end row -->
+                       
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
-                    <section id="line6" class="section">
+                    <!-- <section id="line6" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">How to Install Revolution Slider <hr></h2>
                             </div>
-                            <!-- end col -->
+                         
                         </div>
-                        <!-- end row -->
+                        
 
                         <div class="row">
 
@@ -459,7 +499,7 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                            <!-- end col -->
+                           
 
                             <div class="col-md-6">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
@@ -471,23 +511,23 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                            <!-- end col -->
+                        
 
                         </div>
-                        <!-- end row -->
+                    
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
-                    <section id="line7" class="section">
+                    <!-- <section id="line7" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">How to Use Option Panel <hr></h2>
                             </div>
-                            <!-- end col -->
+                           
                         </div>
-                        <!-- end row -->
+                      
 
                         <div class="row">
                             <div class="col-md-4">
@@ -498,9 +538,9 @@
                                 <h4 id="line7_1">General Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                            <!-- end col -->
+                          
                         </div>
-                        <!-- end row -->
+                     
 
                         <hr>
 
@@ -513,9 +553,9 @@
                                 <h4 id="line7_2">Style Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                            <!-- end col -->
+                          
                         </div>
-                        <!-- end row -->
+                       
 
                         <hr>
 
@@ -528,9 +568,9 @@
                                 <h4 id="line7_3">Header Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                            <!-- end col -->
+                           
                         </div>
-                        <!-- end row -->
+                      
 
                         <hr>
 
@@ -543,9 +583,9 @@
                                 <h4 id="line7_4">Font Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                            <!-- end col -->
+                          
                         </div>
-                        <!-- end row -->
+                       
 
                         <hr>
 
@@ -558,9 +598,9 @@
                                 <h4 id="line7_5">Slider Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                            <!-- end col -->
+                          
                         </div>
-                        <!-- end row -->
+                       
 
                         <hr>
 
@@ -573,9 +613,9 @@
                                 <h4 id="line7_6">Page Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                            <!-- end col -->
+                           
                         </div>
-                        <!-- end row -->
+                        
 
                         <hr>
 
@@ -588,22 +628,22 @@
                                 <h4 id="line7_7">Import & Export Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                            <!-- end col -->
+                           
                         </div>
-                        <!-- end row -->
+                       
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
-                    <section id="line8" class="section">
+                    <!-- <section id="line8" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Support Desk <hr></h2>
                             </div>
-                            <!-- end col -->
+                           
                         </div>
-                        <!-- end row -->
+                        
 
                         <div class="row">
                             <div class="col-md-6">
@@ -638,20 +678,20 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- end row -->
+                      
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
-                    <section id="line9" class="section">
+                    <!-- <section id="line9" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Files & Sources <hr></h2>
                             </div>
-                            <!-- end col -->
+                         
                         </div>
-                        <!-- end row -->
+                       
 
                         <div class="row">
                             <div class="col-md-6">
@@ -698,20 +738,20 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- end row -->
+                       
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
-                    <section id="line10" class="section">
+                   <!--  <section id="line10" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Version History (Changelog) <hr></h2>
                             </div>
-                            <!-- end col -->
+                         
                         </div>
-                        <!-- end row -->
+                       
 
                         <div class="row">
                             <div class="col-md-12">
@@ -773,30 +813,31 @@
 
                             </div>
                         </div>
-                        <!-- end row -->
+                    
 
-                    </section>
+                    </section> -->
                     <!-- end section -->
 
                     <section id="line11" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Copyright and license <hr></h2>
+                                <h2 class="dark-text">Licença de uso <hr></h2>
                             </div>
-                            <!-- end col -->
+                          
                         </div>
-                        <!-- end row -->
+                      
 
                         <div class="row">
                             <div class="col-md-12">
                                 
-                                <p>Code released under the <a href="#" target="_blank">Un License</a> License.</p>                        
-                                <p>For more information about copyright and license check <a href="https://choosealicense.com/" target="_blank">choosealicense.com</a>.</p>
+                                <p>Todas as informações contidas nesta documentação são de uso restrito da <b>Áurea</b> como ferramenta LTI® 1.3 provider.</p>                        
+                                <p>O uso inadequado ou a divulgação deste material sem a autorização da <b>Áurea</b> ou de seus representantes, poderá resultar em ações 
+                                cabíveis na lei.</p>
                             
                             </div>
                         </div>
-                        <!-- end row -->
+                       
 
                     </section>
                     <!-- end section -->

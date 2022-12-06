@@ -110,8 +110,15 @@
                 <div class="col-md-3">
                     <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
                         <ul class="nav">
-                            <li><a href="#line1">Configurando no Moodle®</a></li>
-                            <li><a href="#line2">Configurando no Canvas LMS®</a></li>
+                            <li><a href="#secIntro">Introdução</a></li>
+                            <li><a href="#secPrereq">Pré-requisitos</a></li>
+                            <li><a href="#line1">Instalação e Configuração</a>
+                                <ul class="nav">
+                                    <li><a href="#line1">no Moodle®</a></li>
+                                    <li><a href="#line2">no Canvas LMS®</a></li>
+                                    <li><a href="#line3">no Blackboard®</a></li>
+                                </ul>
+                            </li>
                             <!-- <li><a href="#line3">How to Install Theme</a></li>
                             <li><a href="#line4">Necessary Plugins</a></li>
                             <li><a href="#line5">Creating Blog Pages</a></li>
@@ -131,11 +138,12 @@
                             <li><a href="#line9">Files & Sources</a></li>
                             <li><a href="#line10">Version History (Changelog)</a></li>
                             <li><a href="#line11">Copyright and license</a></li> -->
+                            <li><a href="#line11">Licença e Uso</a></li>
                         </ul>
                     </nav >
                 </div>
                 <div class="col-md-9">
-                    <section class="welcome">
+                    <section class="welcome" id="secIntro">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
@@ -145,16 +153,19 @@
                                     <div class="col-md-12 full">
                                         <div class="intro1">
                                             <ul>
+                                                <h3>Antes de começar leia aqui!</h3>
+                                                <li class="li-title">Todos os link cadastrados na imagem deverá ser retirado a palavra staging, por exemplo: Onde tiver: https://lti.stinging.aurea.app/ deverá ser cadastrado no seu LMS https://lti.aurea.app/ </li>
                                                 <li><strong>Item: </strong>Documentação LTI® 1.3 Áurea</li>
                                                 <li><strong>Item Version : </strong> v 1.0</li>
                                                 <li><strong>Author  : </strong> <a href="#">Áurea Developer Team</a></li>
                                                 <li><strong>Plataforma : </strong> <a href="https://plataforma.aurea.app" target="_blank">https://plataforma.aurea.app</a></li>
-                                                <li><strong>License : </strong> <a href="#">Áurea/Realize - Todos os direitos reservados</a></li>
+                                                <li><strong>License : </strong> <a href="#">Áurea/VG Educacional</a></li>
                                             </ul>
                                         </div>
 
                                         <hr>
                                         <div>
+                                            <section id="secPrereq">
                                             <p>É com muito prazer que informamos que nossa plataforma de gestão de conteúdo educacional <a href="https://aurea.app" target="_blank">Áurea</a> possui suporte 
                                                 a integração com outros portais chamados LMS (Learning Management System), como Moodle®, Canvas LMS® e Blackboard®, através do padrão global <a href="http://www.imsglobal.org/activity/learning-tools-interoperability" target="_blank">LTI® 1.3</a>. 
                                                 A <a href="https://aurea.app" target="_blank">Áurea</a> é uma plataforma com tecnologia inteligente para gestão de conteúdo e objetos de aprendizagem. Nosso objetivo é conectar fornecedores e parceiros da área educacional e tecnológica, 
@@ -180,7 +191,7 @@
                                                     sua LMS_KEY.
                                                 </p>
                                             </div>
-
+                                            </section>
                                         </div>
                                     </div>
 
@@ -203,20 +214,21 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <p>Siga estes passos para configurar a Áurea como LTI® 1.3 provider</p>
+                                <P>LTI® está disponível a partir da versão do moodle 3.9.</P>
 
-                                <h4>Entre no Moodle como um usuário admin (com privilégios para configurar)</h4>
+                                <p>Entre no Moodle como um usuário admin (com privilégios para configurar)</p>
 
                                 <!-- <img src="images/upload/moodle-login.png" /> -->
                                 <a href="images/upload/moodle-login.png" data-rel="prettyPhoto"><img src="images/upload/moodle-login.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
 
-                                <h4>Acesse o menu (1) Site Administration (Administração do site), (2) depois a aba "Plugins" e por fim (3) a opção External Tools -> Manage tools.</h4>
+                                <p>Acesse o menu (1) Site Administration (Administração do site), (2) depois a aba "Plugins" e por fim (3) a opção External Tools -> Manage tools.</p>
                                 <a href="images/upload/moodle-menu-admin.png" data-rel="prettyPhoto"><img src="images/upload/moodle-menu-admin.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
 
-                                <h4>Na tela "Manage Tools" clique no link "configure a tool manually" (configuração manual)</h4>
+                                <p>Na tela "Manage Tools" clique no link "configure a tool manually" (configuração manual)</p>
                                 <a href="images/upload/moodle-manual-config.png" data-rel="prettyPhoto"><img src="images/upload/moodle-manual-config.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
 
-                                <h4>Na tela "External tool configuration" siga os passos abaixo:</h4>
-                                <h4>Preencha todos os campos marcados na imagem com os dados que aparecem na imagem:</h4>
+                                <p>Na tela "External tool configuration" siga os passos abaixo:</p>
+                                <p>Preencha todos os campos marcados na imagem com os dados que aparecem na imagem:</p>
                                 <a href="images/upload/moodle-config-1.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-1.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
 <br />
                                 <div class="intro2 clearfix">
@@ -227,23 +239,25 @@
 
                                 <br />
 
-                                <h4>Continue preenchendo os próximos campos com os dados que aparecem nas imagens:</h4>
+                                <p>Continue preenchendo os próximos campos com os dados que aparecem nas imagens:</p>
                                 <a href="images/upload/moodle-config-2.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-2.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                                 <a href="images/upload/moodle-config-3.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-3.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                                 <a href="images/upload/moodle-config-4.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-4.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                                <h4>Os outros campos e/ou opções, além dos descritos aqui, não precisam ser alterados</h4>
-                                <h4>Clique na opção "Save" (Salvar) e você será redirecionado para a tela abaixo, indicando que você possui a nossa ferramenta externa cadastrada no Moodle. Mas alguns passos ainda precisam ser feitos.</h4>
+                                <p>Os outros campos e/ou opções, além dos descritos aqui, não precisam ser alterados</p>
+                                <p>Clique na opção "Save" (Salvar) e você será redirecionado para a tela abaixo, indicando que você possui a nossa ferramenta externa cadastrada no Moodle. Mas alguns passos ainda precisam ser feitos.</p>
                                 <a href="images/upload/moodle-config-5.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-5.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                                <h4>Clique no ícone de menu que se parece com várias linhas (conforme a imagem abaixo)</h4>
+                                <p>Clique no ícone de menu que se parece com várias linhas (conforme a imagem abaixo)</p>
                                 <a href="images/upload/moodle-config-6.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-6.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                                <h4>Você verá um painel (popup) com algumas informações sobre a ferramenta. Uma dessas informações é o "Client ID", você precisa copiar este código (conforme mostra a imagem abaixo) e mandar para 
+                                <p>Você verá um painel (popup) com algumas informações sobre a ferramenta. Uma dessas informações é o "Client ID", você precisa copiar este código (conforme mostra a imagem abaixo) e mandar para 
                                     a nossa equipe. Apenas quando este código for informado para a equipe de suporte da <b>Áurea</b>, é que você estará habilitado a usar a ferramenta como LTI.
-                                </h4>
+                                </p>
                                 <a href="images/upload/moodle-config-7.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-7.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
 
-                                <div class="intro2 clearfix">
-                                    <p><i class="fa fa-success"></i><b>Parabéns!</b> Você concluiu a configuração da Áurea como ferramenta LTI® do seu portal LMS Moodle®!!</p>
-                                </div>
+                                <p>
+                                    <div class="intro2 clearfix">
+                                        <p><i class="fa fa-success"></i><b>Parabéns!</b> Você concluiu a configuração da Áurea como ferramenta LTI® do seu portal LMS Moodle®!!</p>
+                                    </div>
+                                </p>
 
 
 <!-- 
@@ -312,9 +326,67 @@
 
                         <hr>
 
-                        <!-- <h4>Upload via WordPress Admin</h4>
+                        <p>Acesse o Canvas usando um usuário com privilégios de administrador</p>
+                        <a href="images/upload/canvas-login.png" data-rel="prettyPhoto"><img src="images/upload/canvas-login.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Dentro da plataforma Canvas, acesse o menu "Administrador" -> "Site Admin", conforme a imagem abaixo</p>
+                        <a href="images/upload/canvas-menu-admin.png" data-rel="prettyPhoto"><img src="images/upload/canvas-menu-admin.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        <p>Em seguida clique no menu à esquerda "Chaves do desenvolvedor"</p>
+                        <a href="images/upload/canvas-admin-3.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-3.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        <p>Você verá uma área onde ficam listadas as ferramentas de terceiros do Canvas. Clique no botão "+ Chave do desenvolvedor" e logo depois selecione
+                            a opção "Chave LTI", para adicionar a <b>Áurea</b> nas suas chaves.
+                        </p>
+                        <a href="images/upload/canvas-admin-4.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-4.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Agora você deverá preencher todos os campos, conforme a imagem abaixo. <b>ATENÇÃO!</b> é muito importante que a partir deste momento
+                        você preencha os campos com os dados mostrados nas imagens, caso contrário, a ferramenta não funcionará como esperada. </p>
 
-                        <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        <p> <b>Caso prefira você pode clicar nas imagens para ver uma versão ampliada delas, e assim melhorar a visualização das informações</b> </p>
+                        <a href="images/upload/canvas-admin-5.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-5.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Depois de preencher os primeiros campos, siga para a seção <b>"Serviços do LTI Advantage"</b> e selecione todos os serviços disponíveis (conforme a imagem abaixo). <b>NÃO DEIXE NENHUM DESMARCADO.</b></p>
+                        <a href="images/upload/canvas-admin-6.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-6.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Agora siga para a seção <b>"Configurações Adicionais"</b>. Neste momento <b>é obrigatório</b> que você informe a LMS_KEY obtida junto a plataforma <b>Áurea</b> (Veja como obter esta chave na seção <b>pré-requisitos</b>). 
+                            Você precisa inserir no campo "Campos personalizados" a sua LMS_KEY no formato: <b>lms_key=[SUA-PROPRIA-CHAVE]</b>. Logo depois em <b>"Nível de privacidade"</b>, clique no botão <b>"PÚBLICO"</b>.
+                        </p>
+                        <a href="images/upload/canvas-admin-7.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-7.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>A próxima seção é a chamada <b>"Posicionamentos"</b>. Selecione onde a ferramenta será chamada. Nossa sugestão é usar as duas mostradas na imagem: <b>"Assignment Selection"</b> e <b>"Global Navigation"</b>. Você poderá adicionar 
+                        quantas opções quiser, mas para cada opção adicionada você precisará repetir o próximo passo em cada uma delas.</p>
+                        <a href="images/upload/canvas-admin-8.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-8.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Para cada "posicionamento" que você adicionou no passo anterior, você precisará configurar as duas opções mostradas na imagem abaixo: </p>
+                        <p>Em <b>"Selecionar tipo de mensagem"</b>, escolha a opção <b>"LtiDeepLinkRequest"</b>; </p>
+                        <p>Em <b>"URI do link de destino"</b>, informe a url mostrada na imagem abaixo:</p>
+                        <a href="images/upload/canvas-admin-9.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-9.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p><b>NOVAMENTE:</b> repita o passo anterior para cada opção de <b>"Posicionamento"</b> que você adicionou. Agora clique no botão <b>"Salvar"</b> </p>
+                        <a href="images/upload/canvas-admin-10.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-10.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Você será redirecionado para a página com a listagem de ferramentas configuradas. Perceba que agora deverá aparecer na listagem a <b>Áurea</b> como ferramenta. Copie em algum local o código que aparece na 
+                        coluna <b>"Detalhes"</b>, número 1 na imagem (você vai precisar dele nos próximos passos). Na coluna <b>"Estado"</b>, deixe selecionada a opção <b>"LIGADA"</b>, conforme mostra o número 2 na imagem abaixo: </p>
+                        <a href="images/upload/canvas-admin-11.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-11.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
+                        <p><div class="intro2 clearfix">
+                            <p><i class="fa fa-success"></i><b>Importante!</b> Lembra do código que você guardou, que estava no passo anterior na coluna "Detalhes"? Você precisa informar este código 
+                            para nossa equipe de suporte, para que o seu Canvas LMS seja registrado em nossa plataforma, não esqueça de entrar em contato conosco e informar este código!</p>
+                        </div></p>
+                        
+                        <p>Para finalizar a instalação da LTI Áurea, selecione no menu à esquerda do Canvas a opção <b>"Configurações"</b>, depois a aba <b>"Aplicativos"</b> e por fim clique no botão 
+                        <b>"+ Aplicativo"</b>. Veja na imagem abaixo a sequência: </p>
+                        <a href="images/upload/canvas-admin-12.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-12.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Na janela que aparece, selecione em <b>"Tipo de Configuração"</b> a opção <b>"Por ID do Cliente"</b>, e no campo que vai aparecer chamado <b>"ID do CLiente"</b>, você deverá 
+                        colar o código que você guardou na etapa anterior <b>(Na listagem de ferramentas, coluna "Detalhes")</b>, conforme exemplo abaixo. Para concluir basta clicar em <b>"Enviar"</b> e estará pronto para usar nossa LTI. </p>
+                        <a href="images/upload/canvas-admin-13.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-13.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>
+                            <div class="intro2 clearfix">
+                                <p><i class="fa fa-success"></i><b>Parabéns!</b> Você concluiu a configuração da Áurea como ferramenta LTI® do seu portal Canvas LMS® !!</p>
+                            </div>
+                        </p>
+                        <!-- <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
 
                         <a href="#" class="btn btn-primary">Get a Installation Service</a> <a href="#" class="btn btn-info">Ask a Question</a>
                         <hr>
@@ -326,6 +398,47 @@
                             </div>
 
                         </div> -->
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line3" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Configurando no Blackboard® <hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="intro2 clearfix">
+                            <p><i class="fa fa-success"></i> Siga os passos abaixo para configurar a <b>Áurea</b> como uma LTI® 1.3 provider dentro de seu Blackboard Learn.</p>
+                        </div>
+
+                        <hr>
+
+                        <p>Acesse o Blackboard® usando um usuário com privilégios de administrador, acesse o menu <b>"System Admin"</b> e dentro do quadro <b>"Integrations"</b> acesse <b>"LTI Tool Providers"</b> </p>
+                        <a href="images/upload/blackboard-1.png" data-rel="prettyPhoto"><img src="images/upload/blackboard-1.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
+                        <p>Clique em <b>"Register LTI 1.3/Advantage Tool"</b> e copie dentro de <b>"Client ID"</b> o ID que será passado por nossa equipe (Áurea) e clique em enviar (ou submit), conforme imagem abaixo:</p>
+                        <a href="images/upload/blackboard-2.jpeg" data-rel="prettyPhoto"><img src="images/upload/blackboard-2.jpeg" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        <a href="images/upload/blackboard-3.png" data-rel="prettyPhoto"><img src="images/upload/blackboard-3.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                        
+                        <p>Na próxima tela depois que você aceitar nossa ferramenta como uma LTI 1.3 Tool, Verifique se todos os campos estão corretos. É muito importante que aqui você preencha o campo 
+                            <b>"Tool Provider Custom Parameters"</b> com a LMS_KEY que será passada por nossa equipe (caso não tenha a LMS_KEY entre em contato conosco)</p>
+                            <p><b>IMPORTANTE</b> os valores que devem aparecer para você nesta tela <b>NÃO SERÃO</b> os mesmos da imagem abaixo, eles mudam para cada cliente nosso!</p>
+                        <p>IMPORTANTE também você anotar ou copiar em algum local o valor de <b>"Deployment ID"</b>, você precisará dele nos próximos passos. </p>
+                        <p>Agora Clique em <b>Submit (ou enviar)</b></p>
+                        <a href="images/upload/blackboard-4.jpeg" data-rel="prettyPhoto"><img src="images/upload/blackboard-4.jpeg" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
+                        <p>Entre em contato com nossa equipoe de suporte para finalizar os próximos passos e começar a usar os conteúdos Áurea, dentro do Blackboard®</p>
+
+                        <p>
+                            <div class="intro2 clearfix">
+                                <p><i class="fa fa-success"></i><b>Parabéns!</b> Você concluiu a configuração da Áurea como ferramenta LTI® do seu portal Blackboard® !!</p>
+                            </div>
+                        </p>
 
                     </section>
                     <!-- end section -->

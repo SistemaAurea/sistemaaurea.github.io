@@ -154,7 +154,6 @@
                                         <div class="intro1">
                                             <ul>
                                                 <h3>Antes de começar leia aqui!</h3>
-                                                <li class="li-title">Todos os link cadastrados na imagem  deverão ser retirado a palavra staging. Por exemplo: Onde tiver: https://lti.staging.aurea.app/ ficando https://lti.aurea.app/ </li>
                                                 <li><strong>Item: </strong>Documentação LTI® 1.3 Áurea</li>
                                                 <li><strong>Item Version : </strong> v 1.0</li>
                                                 <li><strong>Author  : </strong> <a href="#">Áurea Developer Team</a></li>
@@ -166,15 +165,15 @@
                                         <hr>
                                         <div>
                                             <section id="secPrereq">
-                                            <p>É com muito prazer que informamos que nossa plataforma de gestão de conteúdo educacional <a href="https://aurea.app" target="_blank">Áurea</a> possui suporte 
-                                                a integração com outros portais chamados LMS (Learning Management System), como Moodle®, Canvas LMS® e Blackboard®, através do padrão global <a href="http://www.imsglobal.org/activity/learning-tools-interoperability" target="_blank">LTI® 1.3</a>. 
-                                                A <a href="https://aurea.app" target="_blank">Áurea</a> é uma plataforma com tecnologia inteligente para gestão de conteúdo e objetos de aprendizagem. Nosso objetivo é conectar fornecedores e parceiros da área educacional e tecnológica, 
+                                            <p>É com muito prazer que informamos que nossa plataforma de gestão de conteúdo educacional <a href="https://aurea.app" target="_blank">Áurea</a> possui suporte
+                                                a integração com outros portais chamados LMS (Learning Management System), como Moodle®, Canvas LMS® e Blackboard®, através do padrão global <a href="http://www.imsglobal.org/activity/learning-tools-interoperability" target="_blank">LTI® 1.3</a>.
+                                                A <a href="https://aurea.app" target="_blank">Áurea</a> é uma plataforma com tecnologia inteligente para gestão de conteúdo e objetos de aprendizagem. Nosso objetivo é conectar fornecedores e parceiros da área educacional e tecnológica,
                                                 para montar o melhor ecosistema de aprendizagem do mercado. Se quiser conhecer mais sobre nossa plataforma <a href="https://aurea.app" target="_blank">Clique Aqui</a>.
 
                                             </p>
 
                                             <p>
-                                                Esta documentação vai ajudar você a configurar a <strong>Áurea</strong> como um LTI provider (provedor de conteúdo) para seu portal educacional <b>(LMS)</b>, como Moodle®, Canvas® e Blackboard®. Dessa forma 
+                                                Esta documentação vai ajudar você a configurar a <strong>Áurea</strong> como um LTI provider (provedor de conteúdo) para seu portal educacional <b>(LMS)</b>, como Moodle®, Canvas® e Blackboard®. Dessa forma
                                                 você será capaz de inserir no seu portal educacional, os conteúdos que adquirir dentro da nossa plataforma <strong>Áurea</strong>.
                                             </p>
 
@@ -183,11 +182,11 @@
                                             <ol>
                                                 <li>Possuir cadastro e conteúdos comprados dentro da <a href="https://plataforma.aurea.app" target="_blank">plataforma Áurea</a></li>
                                                 <li>Gerar sua <b>LMS_KEY</b> fornecida pela Áurea (Esta chave será usada para sua configuração LTI)</li>
-                                                <li>Para saber como obter sua <b>LMS_KEY</b> <a href="https://staging.aurea.app.br/docs/lms/key_generator" target="_blank">CLIQUE AQUI</a>  (você antes precisa ter cadastro dentro da nossa plataforma)</li>
+                                                <li>Para saber como obter sua <b>LMS_KEY</b> <a href="https://plataforma.aurea.app/lms-key" target="_blank">CLIQUE AQUI</a>  (você antes precisa ter cadastro dentro da nossa plataforma)</li>
                                                 <li>Se tiver qualquer dúvida sobre o conteúdo desta documentação, entre em contato conosco <a href="https://aurea.app/#fale-conosco" target="_blank">AQUI</a></li>
                                             </ol>
                                             <div class="intro2 clearfix">
-                                                <p><i class="fa fa-exclamation-triangle"></i> Atenção! Antes de continuar com qualquer passo da integração via LTI® 1.3, siga os Pré-requisitos e obtenha 
+                                                <p><i class="fa fa-exclamation-triangle"></i> Atenção! Antes de continuar com qualquer passo da integração via LTI® 1.3, siga os Pré-requisitos e obtenha
                                                     sua LMS_KEY.
                                                 </p>
                                             </div>
@@ -229,10 +228,10 @@
 
                                 <p>Na tela "External tool configuration" siga os passos abaixo:</p>
                                 <p>Preencha todos os campos marcados na imagem com os dados que aparecem na imagem:</p>
-                                <a href="images/upload/moodle-config-1.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-1.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                                <a href="images/upload/moodle-config-new-1.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-new-1.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
 <br />
                                 <div class="intro2 clearfix">
-                                    <p><i class="fa fa-exclamation-triangle"></i> Atenção! no campo "Custom parameters" você deverá informar o valor da LMS_KEY explicada na seção "Pré-requisitos" 
+                                    <p><i class="fa fa-exclamation-triangle"></i> Atenção! no Continue preenchendo os próximos campos com os dados que aparecem nas imagens: "Custom parameters" você deverá informar o valor da LMS_KEY explicada na seção "Pré-requisitos"
                                         desta documentação. Você precisa informar a LMS_KEY no formato: lms_key=[SUA_PROPRIA_CHAVE].
                                     </p>
                                 </div>
@@ -240,7 +239,7 @@
                                 <br />
 
                                 <p>Continue preenchendo os próximos campos com os dados que aparecem nas imagens:</p>
-                                <a href="images/upload/moodle-config-2.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-2.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+                                <a href="images/upload/moodle-config-new-2.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-new-2.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                                 <a href="images/upload/moodle-config-3.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-3.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                                 <a href="images/upload/moodle-config-4.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-4.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                                 <p>Os outros campos e/ou opções, além dos descritos aqui, não precisam ser alterados</p>
@@ -248,7 +247,7 @@
                                 <a href="images/upload/moodle-config-5.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-5.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                                 <p>Clique no ícone de menu que se parece com várias linhas (conforme a imagem abaixo)</p>
                                 <a href="images/upload/moodle-config-6.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-6.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                                <p>Você verá um painel (popup) com algumas informações sobre a ferramenta. Uma dessas informações é o "Client ID", você precisa copiar este código (conforme mostra a imagem abaixo) e mandar para 
+                                <p>Você verá um painel (popup) com algumas informações sobre a ferramenta. Uma dessas informações é o "Client ID", você precisa copiar este código (conforme mostra a imagem abaixo) e mandar para
                                     a nossa equipe. Apenas quando este código for informado para a equipe de suporte da <b>Áurea</b>, é que você estará habilitado a usar a ferramenta como LTI.
                                 </p>
                                 <a href="images/upload/moodle-config-7.png" data-rel="prettyPhoto"><img src="images/upload/moodle-config-7.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
@@ -260,7 +259,7 @@
                                 </p>
 
 
-<!-- 
+<!--
                                 <pre class="brush: html; highlight: [2,4]">
                             <div class="container">
                                 <div class="row">
@@ -328,7 +327,7 @@
 
                         <p>Acesse o Canvas usando um usuário com privilégios de administrador</p>
                         <a href="images/upload/canvas-login.png" data-rel="prettyPhoto"><img src="images/upload/canvas-login.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
+
                         <p>Dentro da plataforma Canvas, acesse o menu "Administrador" -> "Site Admin", conforme a imagem abaixo</p>
                         <a href="images/upload/canvas-menu-admin.png" data-rel="prettyPhoto"><img src="images/upload/canvas-menu-admin.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                         <p>Em seguida clique no menu à esquerda "Chaves do desenvolvedor"</p>
@@ -337,50 +336,50 @@
                             a opção "Chave LTI", para adicionar a <b>Áurea</b> nas suas chaves.
                         </p>
                         <a href="images/upload/canvas-admin-4.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-4.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
+
                         <p>Agora você deverá preencher todos os campos, conforme a imagem abaixo. <b>ATENÇÃO!</b> é muito importante que a partir deste momento
                         você preencha os campos com os dados mostrados nas imagens, caso contrário, a ferramenta não funcionará como esperada. </p>
 
                         <p> <b>Caso prefira você pode clicar nas imagens para ver uma versão ampliada delas, e assim melhorar a visualização das informações</b> </p>
-                        <a href="images/upload/canvas-admin-5.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-5.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
+                        <a href="images/upload/canvas-admin-new-5.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-new-5.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
                         <p>Depois de preencher os primeiros campos, siga para a seção <b>"Serviços do LTI Advantage"</b> e selecione todos os serviços disponíveis (conforme a imagem abaixo). <b>NÃO DEIXE NENHUM DESMARCADO.</b></p>
                         <a href="images/upload/canvas-admin-6.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-6.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
-                        <p>Agora siga para a seção <b>"Configurações Adicionais"</b>. Neste momento <b>é obrigatório</b> que você informe a LMS_KEY obtida junto a plataforma <b>Áurea</b> (Veja como obter esta chave na seção <b>pré-requisitos</b>). 
+
+                        <p>Agora siga para a seção <b>"Configurações Adicionais"</b>. Neste momento <b>é obrigatório</b> que você informe a LMS_KEY obtida junto a plataforma <b>Áurea</b> (Veja como obter esta chave na seção <b>pré-requisitos</b>).
                             Você precisa inserir no campo "Campos personalizados" a sua LMS_KEY no formato: <b>lms_key=[SUA-PROPRIA-CHAVE]</b>. Logo depois em <b>"Nível de privacidade"</b>, clique no botão <b>"PÚBLICO"</b>.
                         </p>
                         <a href="images/upload/canvas-admin-7.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-7.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
-                        <p>A próxima seção é a chamada <b>"Posicionamentos"</b>. Selecione onde a ferramenta será chamada. Nossa sugestão é usar as duas mostradas na imagem: <b>"Assignment Selection"</b> e <b>"Global Navigation"</b>. Você poderá adicionar 
+
+                        <p>A próxima seção é a chamada <b>"Posicionamentos"</b>. Selecione onde a ferramenta será chamada. Nossa sugestão é usar as duas mostradas na imagem: <b>"Assignment Selection"</b> e <b>"Global Navigation"</b>. Você poderá adicionar
                         quantas opções quiser, mas para cada opção adicionada você precisará repetir o próximo passo em cada uma delas.</p>
                         <a href="images/upload/canvas-admin-8.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-8.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
+
                         <p>Para cada "posicionamento" que você adicionou no passo anterior, você precisará configurar as duas opções mostradas na imagem abaixo: </p>
                         <p>Em <b>"Selecionar tipo de mensagem"</b>, escolha a opção <b>"LtiDeepLinkRequest"</b>; </p>
                         <p>Em <b>"URI do link de destino"</b>, informe a url mostrada na imagem abaixo:</p>
-                        <a href="images/upload/canvas-admin-9.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-9.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
+                        <a href="images/upload/canvas-admin-new-9.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-new-9.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
+
                         <p><b>NOVAMENTE:</b> repita o passo anterior para cada opção de <b>"Posicionamento"</b> que você adicionou. Agora clique no botão <b>"Salvar"</b> </p>
                         <a href="images/upload/canvas-admin-10.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-10.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
-                        <p>Você será redirecionado para a página com a listagem de ferramentas configuradas. Perceba que agora deverá aparecer na listagem a <b>Áurea</b> como ferramenta. Copie em algum local o código que aparece na 
+
+                        <p>Você será redirecionado para a página com a listagem de ferramentas configuradas. Perceba que agora deverá aparecer na listagem a <b>Áurea</b> como ferramenta. Copie em algum local o código que aparece na
                         coluna <b>"Detalhes"</b>, número 1 na imagem (você vai precisar dele nos próximos passos). Na coluna <b>"Estado"</b>, deixe selecionada a opção <b>"LIGADA"</b>, conforme mostra o número 2 na imagem abaixo: </p>
                         <a href="images/upload/canvas-admin-11.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-11.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
 
                         <p><div class="intro2 clearfix">
-                            <p><i class="fa fa-success"></i><b>Importante!</b> Lembra do código que você guardou, que estava no passo anterior na coluna "Detalhes"? Você precisa informar este código 
+                            <p><i class="fa fa-success"></i><b>Importante!</b> Lembra do código que você guardou, que estava no passo anterior na coluna "Detalhes"? Você precisa informar este código
                             para nossa equipe de suporte, para que o seu Canvas LMS seja registrado em nossa plataforma, não esqueça de entrar em contato conosco e informar este código!</p>
                         </div></p>
-                        
-                        <p>Para finalizar a instalação da LTI Áurea, selecione no menu à esquerda do Canvas a opção <b>"Configurações"</b>, depois a aba <b>"Aplicativos"</b> e por fim clique no botão 
+
+                        <p>Para finalizar a instalação da LTI Áurea, selecione no menu à esquerda do Canvas a opção <b>"Configurações"</b>, depois a aba <b>"Aplicativos"</b> e por fim clique no botão
                         <b>"+ Aplicativo"</b>. Veja na imagem abaixo a sequência: </p>
                         <a href="images/upload/canvas-admin-12.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-12.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
-                        <p>Na janela que aparece, selecione em <b>"Tipo de Configuração"</b> a opção <b>"Por ID do Cliente"</b>, e no campo que vai aparecer chamado <b>"ID do CLiente"</b>, você deverá 
+
+                        <p>Na janela que aparece, selecione em <b>"Tipo de Configuração"</b> a opção <b>"Por ID do Cliente"</b>, e no campo que vai aparecer chamado <b>"ID do CLiente"</b>, você deverá
                         colar o código que você guardou na etapa anterior <b>(Na listagem de ferramentas, coluna "Detalhes")</b>, conforme exemplo abaixo. Para concluir basta clicar em <b>"Enviar"</b> e estará pronto para usar nossa LTI. </p>
                         <a href="images/upload/canvas-admin-13.png" data-rel="prettyPhoto"><img src="images/upload/canvas-admin-13.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
+
                         <p>
                             <div class="intro2 clearfix">
                                 <p><i class="fa fa-success"></i><b>Parabéns!</b> Você concluiu a configuração da Áurea como ferramenta LTI® do seu portal Canvas LMS® !!</p>
@@ -424,8 +423,8 @@
                         <p>Clique em <b>"Register LTI 1.3/Advantage Tool"</b> e copie dentro de <b>"Client ID"</b> o ID que será passado por nossa equipe (Áurea) e clique em enviar (ou submit), conforme imagem abaixo:</p>
                         <a href="images/upload/blackboard-2.jpeg" data-rel="prettyPhoto"><img src="images/upload/blackboard-2.jpeg" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
                         <a href="images/upload/blackboard-3.png" data-rel="prettyPhoto"><img src="images/upload/blackboard-3.png" alt="Clique para ampliar" class="img-responsive img-thumbnail"></a>
-                        
-                        <p>Na próxima tela depois que você aceitar nossa ferramenta como uma LTI 1.3 Tool, Verifique se todos os campos estão corretos. É muito importante que aqui você preencha o campo 
+
+                        <p>Na próxima tela depois que você aceitar nossa ferramenta como uma LTI 1.3 Tool, Verifique se todos os campos estão corretos. É muito importante que aqui você preencha o campo
                             <b>"Tool Provider Custom Parameters"</b> com a LMS_KEY que será passada por nossa equipe (caso não tenha a LMS_KEY entre em contato conosco)</p>
                             <p><b>IMPORTANTE</b> os valores que devem aparecer para você nesta tela <b>NÃO SERÃO</b> os mesmos da imagem abaixo, eles mudam para cada cliente nosso!</p>
                         <p>IMPORTANTE também você anotar ou copiar em algum local o valor de <b>"Deployment ID"</b>, você precisará dele nos próximos passos. </p>
@@ -449,9 +448,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">How to Install Theme <hr></h2>
                             </div>
-                            
+
                         </div>
-                       
+
 
                         <h4>Upload via WordPress Admin</h4>
 
@@ -491,9 +490,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Necessary Plugins <hr></h2>
                             </div>
-                           
+
                         </div>
-                       
+
 
                         <div class="row">
                             <div class="col-md-4">
@@ -501,21 +500,21 @@
                                 <h4>Plugin name #1</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                             </div>
-                          
+
 
                             <div class="col-md-4">
                                 <img src="images/upload/plugin2.png" alt="" class="img-responsive img-thumbnail">
                                 <h4>Plugin name #2</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                             </div>
-                           
+
 
                             <div class="col-md-4">
                                 <img src="images/upload/plugin3.png" alt="" class="img-responsive img-thumbnail">
                                 <h4>Plugin name #3</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                             </div>
-                           
+
 
                             <div class="col-md-12">
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
@@ -525,7 +524,7 @@
                                 </div>
                             </div>
                         </div>
-                      
+
 
                     </section> -->
                     <!-- end section -->
@@ -536,9 +535,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Creating Blog Pages <hr></h2>
                             </div>
-                         
+
                         </div>
-                        
+
 
                         <div class="row">
 
@@ -555,7 +554,7 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                          
+
 
                             <div class="col-md-4">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
@@ -567,7 +566,7 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                         
+
 
                             <div class="col-md-4">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
@@ -579,10 +578,10 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                          
+
 
                         </div>
-                       
+
 
                     </section> -->
                     <!-- end section -->
@@ -593,9 +592,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">How to Install Revolution Slider <hr></h2>
                             </div>
-                         
+
                         </div>
-                        
+
 
                         <div class="row">
 
@@ -612,7 +611,7 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                           
+
 
                             <div class="col-md-6">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
@@ -624,10 +623,10 @@
                                     <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
                                 </ul>
                             </div>
-                        
+
 
                         </div>
-                    
+
 
                     </section> -->
                     <!-- end section -->
@@ -638,9 +637,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">How to Use Option Panel <hr></h2>
                             </div>
-                           
+
                         </div>
-                      
+
 
                         <div class="row">
                             <div class="col-md-4">
@@ -651,9 +650,9 @@
                                 <h4 id="line7_1">General Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                          
+
                         </div>
-                     
+
 
                         <hr>
 
@@ -666,9 +665,9 @@
                                 <h4 id="line7_2">Style Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                          
+
                         </div>
-                       
+
 
                         <hr>
 
@@ -681,9 +680,9 @@
                                 <h4 id="line7_3">Header Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                           
+
                         </div>
-                      
+
 
                         <hr>
 
@@ -696,9 +695,9 @@
                                 <h4 id="line7_4">Font Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                          
+
                         </div>
-                       
+
 
                         <hr>
 
@@ -711,9 +710,9 @@
                                 <h4 id="line7_5">Slider Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                          
+
                         </div>
-                       
+
 
                         <hr>
 
@@ -726,9 +725,9 @@
                                 <h4 id="line7_6">Page Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                           
+
                         </div>
-                        
+
 
                         <hr>
 
@@ -741,9 +740,9 @@
                                 <h4 id="line7_7">Import & Export Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
-                           
+
                         </div>
-                       
+
 
                     </section> -->
                     <!-- end section -->
@@ -754,9 +753,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Support Desk <hr></h2>
                             </div>
-                           
+
                         </div>
-                        
+
 
                         <div class="row">
                             <div class="col-md-6">
@@ -791,7 +790,7 @@
                                 </ul>
                             </div>
                         </div>
-                      
+
 
                     </section> -->
                     <!-- end section -->
@@ -802,9 +801,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Files & Sources <hr></h2>
                             </div>
-                         
+
                         </div>
-                       
+
 
                         <div class="row">
                             <div class="col-md-6">
@@ -851,7 +850,7 @@
                                 </ul>
                             </div>
                         </div>
-                       
+
 
                     </section> -->
                     <!-- end section -->
@@ -862,9 +861,9 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Version History (Changelog) <hr></h2>
                             </div>
-                         
+
                         </div>
-                       
+
 
                         <div class="row">
                             <div class="col-md-12">
@@ -886,8 +885,8 @@
                                         - fixed security issue with xss vulnerability
                                         - improved demo importer for certain server environments
                                         - updated WooCommerce template files for the outdated message in system status
-                                        - added suhosin check in system status 
-                                        - added information that explains ZipArchive is required on your server for importing demos 
+                                        - added suhosin check in system status
+                                        - added information that explains ZipArchive is required on your server for importing demos
                                         - portfolio Grid template improvement
                                         - added more information to demo popup message for individual demo requirements
                                         - RTL style improvements
@@ -901,7 +900,7 @@
                                         - dropped custom Avada styles for select boxes in IE since it is not supported
                                         - fixed compatibility issue with Category Order and Taxonomy Terms Order plugin
                                         - fixed issue of full width background being affected by padding options
-                                        - tested and fixed hellobar issue 
+                                        - tested and fixed hellobar issue
                                         - typography settings now apply to single post pages
                                         - improved smooth scroll in certain situations
                                         - youtube & vimeo videos will show at normal size in light box as long as video embed link is not used
@@ -911,14 +910,14 @@
                                         -----------------------------------------------------------------------------------------
                                         Version 3.8.2 - May 7th, 2015
                                         -----------------------------------------------------------------------------------------
-                                        - fixed formatting issues with Turkish language files 
+                                        - fixed formatting issues with Turkish language files
                                         - letter spacing menu option improvement
                                         - improved fusion slider max content width setting
                                         - removed the â€œdisable first featured image on productsâ€ setting since it does not apply
                                         - improved portfolio featured image loading
                                         - removed encoding from tracking code, space before head, space before body, and custom CSS to stop it from parsing code within TO and removing special characters e.g. +
                                         - woo login box now shows login fields for logged out users
-                                        - woo cart / my account links now show on mobile 
+                                        - woo cart / my account links now show on mobile
                                         - fixed button styling issue with gravity forms
 
 
@@ -926,7 +925,7 @@
 
                             </div>
                         </div>
-                    
+
 
                     </section> -->
                     <!-- end section -->
@@ -937,20 +936,20 @@
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">Licença de uso <hr></h2>
                             </div>
-                          
+
                         </div>
-                      
+
 
                         <div class="row">
                             <div class="col-md-12">
-                                
-                                <p>Todas as informações contidas nesta documentação são de uso restrito da <b>Áurea</b> como ferramenta LTI® 1.3 provider.</p>                        
-                                <p>O uso inadequado ou a divulgação deste material sem a autorização da <b>Áurea</b> ou de seus representantes, poderá resultar em ações 
+
+                                <p>Todas as informações contidas nesta documentação são de uso restrito da <b>Áurea</b> como ferramenta LTI® 1.3 provider.</p>
+                                <p>O uso inadequado ou a divulgação deste material sem a autorização da <b>Áurea</b> ou de seus representantes, poderá resultar em ações
                                 cabíveis na lei.</p>
-                            
+
                             </div>
                         </div>
-                       
+
 
                     </section>
                     <!-- end section -->
